@@ -92,9 +92,9 @@ O consumo a bordo é medido por cinco rubricas (`RoomService`, `FoodCourt`, `Sho
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | `RoomService` | 65,2 | 0 | 221,58 | 6,38 | 298,2% | 637,39 | 2,9× |
 | `FoodCourt` | 63,8 | 0 | 451,40 | 7,17 | 353,6% | 1.248,10 | 2,8× |
-| `ShoppingMall` | 65,8 | 0 | 170,03 | 12,77 | 351,8% | 496,91 | 2,9× |
-| `Spa` | 62,3 | 0 | 305,39 | 7,72 | 368,5% | 809,28 | 2,6× |
-| `VRDeck` | 64,4 | 0 | 299,14 | 7,90 | 379,2% | 840,11 | 2,8× |
+| `ShoppingMall` | 65,8 | 0 | 169,95 | 12,77 | 351,8% | 496,93 | 2,9× |
+| `Spa` | 62,3 | 0 | 305,45 | 7,72 | 368,5% | 809,28 | 2,6× |
+| `VRDeck` | 64,4 | 0 | 299,09 | 7,90 | 379,2% | 840,05 | 2,8× |
 
 ### 2.1. A maioria não consome — e mediana zero não significa "gasto baixo"
 
@@ -102,7 +102,7 @@ Em cada rubrica, **entre 62,3% e 65,8% dos passageiros gastaram exatamente zero*
 
 ### 2.2. As médias são puxadas por poucos consumidores
 
-As médias populacionais variam de **US$ 170,03 (ShoppingMall) a US$ 451,40 (FoodCourt)**, mas com assimetrias entre **6,38 e 12,77** e coeficientes de variação entre **298,2% e 379,2%**. Ou seja, a média não representa o passageiro típico: ela é inflada por uma minoria de consumo intenso.
+As médias populacionais variam de **US$ 169,95 (ShoppingMall) a US$ 451,40 (FoodCourt)**, mas com assimetrias entre **6,38 e 12,77** e coeficientes de variação entre **298,2% e 379,2%**. Ou seja, a média não representa o passageiro típico: ela é inflada por uma minoria de consumo intenso.
 
 **Recomendação de reporte:** toda rubrica de gasto deve ser apresentada com **mediana, média e percentual de zeros em conjunto**. A mediana isolada esconde a receita concentrada; a média isolada sugere um consumo que a maioria não teve.
 
@@ -112,9 +112,9 @@ Restringindo a análise a quem gastou algo em cada rubrica, a média fica **2,6 
 
 ### 2.4. Gasto total: metade consome, mas a média é dominada pela metade que consome
 
-Em `TotalSpend`, a média é de **US$ 1.447,50** e a mediana, de **US$ 717,00** — razão de aproximadamente 2. **41,9% (3.644 passageiros) não gastaram nada**. Entre os **5.049 que gastaram**, a média sobe para **US$ 2.492,10** e a mediana, para **US$ 1.192,00**.
+Em `TotalSpend`, a média é de **US$ 1.447,46** e a mediana, de **US$ 717,00** — razão de aproximadamente 2. **41,9% (3.644 passageiros) não gastaram nada**. Entre os **5.049 que gastaram**, a média sobe para **US$ 2.492,13** e a mediana, para **US$ 1.192,00**.
 
-O indicador mais informativo, portanto, é a combinação de três números (41,9% / US$ 717 / US$ 1.447,50): eles descrevem, ao mesmo tempo, a parcela que não consome, o padrão de quem consome e o efeito dos grandes gastadores sobre a média.
+O indicador mais informativo, portanto, é a combinação de três números (41,9% / US$ 717 / US$ 1.447,46): eles descrevem, ao mesmo tempo, a parcela que não consome, o padrão de quem consome e o efeito dos grandes gastadores sobre a média.
 
 ### 2.5. Quem usa um serviço tende a usar outros
 

@@ -6,7 +6,7 @@
 - **Documento de Referência:** [`docs/conclusoes/02_descritiva_visual.md`](conclusoes/02_descritiva_visual.md)
 - **Base de Dados:** `data/processed/spaceship_titanic_clean.csv` — 8.693 passageiros × 22 colunas, 0 valores ausentes
 - **Responsável:** Helton Gomes Soares de Lima · **Revisoras:** Luciana Almeida e Daniela
-- **Status:** 8 figuras selecionadas e exportadas (faixa de 8 a 12 do Jira atendida) e 4 tabelas selecionadas, das quais 3 já estão publicadas em notebook e 1 depende da KAN-15.
+- **Status:** 8 figuras selecionadas e exportadas (faixa de 8 a 12 do Jira atendida) e 4 tabelas selecionadas, todas **publicadas** em notebook ou em documento de conclusões.
 
 > **Convenção.** Os arquivos seguem o padrão `fig_XX_nome_descritivo.png`, com `XX` em dois dígitos, nome em minúsculas, sem acentos e sem espaços. Todas as figuras têm **300 DPI**, pelo menos 1.700 px de largura e legenda autossuficiente (a imagem deve ser compreensível sem o texto ao redor). Os títulos embutidos nas imagens não trazem numeração: a numeração existe apenas neste catálogo e no documento do relatório.
 
@@ -58,11 +58,11 @@ Painel esquerdo: proporção de passageiros com gasto zero em cada uma das cinco
 | Tabela | Conteúdo | Seção do relatório | Origem | Status |
 | :--- | :--- | :--- | :--- | :--- |
 | **T1** | Composição da amostra nas 7 variáveis categóricas (n e %), com `Transported` no topo | 2.1 Perfil demográfico | notebook 02, célula 03 (`6b742183`, KAN-14) | Publicada |
-| **T2** | Resumo das 5 rubricas de gasto: % de zeros, mediana, média, assimetria e coeficiente de variação | 2.2 Consumo e gastos | KAN-15 (resumos quantitativos) | Prevista |
+| **T2** | Resumo das 5 rubricas de gasto: % de zeros, mediana, média, assimetria e coeficiente de variação | 2.2 Consumo e gastos | [`docs/conclusoes/02_descritiva_visual.md`](conclusoes/02_descritiva_visual.md), seção 2 (KAN-18) | Publicada |
 | **T3** | Ranking das categorias com n ≥ 30 mais afastadas da taxa global de transporte | 2.3 Relação com `Transported` | notebook 02, célula 05 (`2aae6bb8`, KAN-14) | Publicada |
 | **T4** | Gasto total por desfecho e por planeta: n, % de zeros, mediana e média | 2.2 e 2.3 | notebook 02, célula 14 (`f48f6c2b`, KAN-16) | Publicada |
 
-> **Sobre a T2.** A tabela depende do notebook da KAN-15, ainda não publicado no repositório; até lá, o conteúdo equivalente pode ser reproduzido a partir das colunas de gasto da base tratada. As tabelas entram no relatório numeradas como **T1** a **T4**; qualquer tabela nova passa a ser **T5** em diante, sem renumerar as anteriores.
+> **Sobre a T2.** A tabela está publicada em [`docs/conclusoes/02_descritiva_visual.md`](conclusoes/02_descritiva_visual.md), seção 2, com os valores recalculados na base tratada (`ShoppingMall` US$ 169,95; `Spa` US$ 305,45; `VRDeck` US$ 299,09; `TotalSpend` US$ 1.447,46). A KAN-15 permanece pendente apenas para a versão consolidada no notebook final. As tabelas entram no relatório numeradas como **T1** a **T4**; qualquer tabela nova passa a ser **T5** em diante, sem renumerar as anteriores.
 
 ---
 
